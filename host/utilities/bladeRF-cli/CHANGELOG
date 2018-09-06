@@ -2,8 +2,12 @@
 bladeRF-cli Change Log Summary
 
 For more detailed information, please see the git change log and issue tracker
-hosted on GitHub: https://github.com/nuand/bladeRF
+hosted on GitHub: https://github.com/Nuand/bladeRF
 ================================================================================
+
+NEXT
+--------------------------------
+ * Add libedit support (#591)
 
 v1.6.1 (2018-08-24)
 --------------------------------

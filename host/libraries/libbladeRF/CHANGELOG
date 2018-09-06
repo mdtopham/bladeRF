@@ -2,8 +2,28 @@
 libbladeRF Change Log Summary
 
 For more detailed information, please see the git change log and issue tracker
-hosted on GitHub: https://github.com/nuand/bladeRF
+hosted on GitHub: https://github.com/Nuand/bladeRF
 ================================================================================
+
+NEXT
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.2.0
+FPGA         v0.8.0
+
+Note to bladerf1 (x40/x115) users: AGC will not work with FPGA versions
+older than v0.8.0, due to a change in the control register mapping. A warning
+will be printed during device initialization if you are using an affected
+FPGA version.
+
+Changes:
+ * bladerf2: Support TX frequencies down to 47 MHz (#598)
+ * bladerf2: Support sample rates down to 0.521 MSps (#593)
+ * docs: install the doxygen documentation (#597)
+ * Adjust RX gain mode lists for clarity (#601)
+ * bladerf1: Fix BLADERF_GPIO_AGC_ENABLE (#607)
 
 v2.0.2 (2018-08-30)
 --------------------------------
