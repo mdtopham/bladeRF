@@ -8,6 +8,10 @@ hosted on GitHub: https://github.com/Nuand/bladeRF
 NEXT
 --------------------------------
  * Add libedit support (#591)
+ * Show RF routing in 'print hardware' on bladerf1 devices (#608)
+ * Update more places to use typedefs for bladerf_frequency, etc (#610)
+ * Display product description string in 'probe', 'info' (#611)
+ * Ensure device is initialized after deferred open (#612)
 
 v1.6.1 (2018-08-24)
 --------------------------------
