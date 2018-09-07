@@ -24,6 +24,9 @@ Changes:
  * docs: install the doxygen documentation (#597)
  * Adjust RX gain mode lists for clarity (#601)
  * bladerf1: Fix BLADERF_GPIO_AGC_ENABLE (#607)
+ * bladerf1: Implement bladerf_{get,set}_rf_port[s] (#608)
+ * Add format macros for bladerf_frequency and bladerf_timestamp (#610)
+ * Add 'product' device description string to bladerf_devinfo struct (#611)
 
 v2.0.2 (2018-08-30)
 --------------------------------
