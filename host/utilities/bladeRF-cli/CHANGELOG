@@ -9,9 +9,9 @@ NEXT
 --------------------------------
  * Add libedit support (#591)
  * Show RF routing in 'print hardware' on bladerf1 devices (#608)
- * Update more places to use typedefs for bladerf_frequency, etc (#610)
- * Display product description string in 'probe', 'info' (#611)
+ * Display manufacturer and product strings in 'probe', 'info' (#624)
  * Ensure device is initialized after deferred open (#612)
+ * Use "degrees C" on temperature instead of the degrees symbol
 
 v1.6.1 (2018-08-24)
 --------------------------------

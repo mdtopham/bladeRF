@@ -25,8 +25,14 @@ Changes:
  * Adjust RX gain mode lists for clarity (#601)
  * bladerf1: Fix BLADERF_GPIO_AGC_ENABLE (#607)
  * bladerf1: Implement bladerf_{get,set}_rf_port[s] (#608)
- * Add format macros for bladerf_frequency and bladerf_timestamp (#610)
- * Add 'product' device description string to bladerf_devinfo struct (#611)
+ * Add format macros for bladerf_frequency and bladerf_timestamp (#623)
+ * Add 'manufacturer' and 'product' device description strings to
+   bladerf_devinfo struct (#624)
+ * Moved FN_RF_PORTS into the FN_LOW_LEVEL section of API docs
+ * bladerf1: implemented bladerf_{get,set}_rf_port[s] (#600, #625)
+ * bladerf2: fix bladerf_trigger_arm implementation (#633)
+ * Add bladerf_get_serial_struct() API function (#382)
+ * Add bladerf_get_flash_size() API function (#634)
 
 v2.0.2 (2018-08-30)
 --------------------------------
